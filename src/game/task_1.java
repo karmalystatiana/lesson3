@@ -23,6 +23,7 @@ public class task_1 {
                     case 7:
                     case 8:
                         System.out.println("Лето");
+                        break;
                     case 9:
                     case 10:
                     case 11:
