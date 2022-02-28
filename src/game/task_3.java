@@ -8,12 +8,11 @@ public class task_3 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число");
-        int numMonth = scanner.nextInt();
-        int a = numMonth % 2;
+        int number = scanner.nextInt();
 
-        if(a > 0) {
+        if (number % 2 == 1) {
             System.out.println("нечетное");
-        } else{
+        } else {
             System.out.println("четное");
         }
 
